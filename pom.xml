@@ -6,11 +6,11 @@
 
 	<groupId>com.pablo.imagescaler</groupId>
 	<artifactId>ImageScaler</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0</version>
 
-	<name>Camel Web Application</name>
-	<description>Camel project that deploys the Camel routes as a WAR</description>
-	<url>http://www.myorganization.org</url>
+	<name>ImageScaler</name>
+	<description>ImageScaler</description>
+	<url>https://github.com/padilo/ImageScaler</url>
 
 	<packaging>jar</packaging>
 
