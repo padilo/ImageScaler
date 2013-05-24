@@ -6,7 +6,7 @@
 
 	<groupId>com.pablo.imagescaler</groupId>
 	<artifactId>ImageScaler</artifactId>
-	<version>0.1.1</version>
+	<version>0.2.0</version>
 
 	<name>ImageScaler</name>
 	<description>ImageScaler</description>
