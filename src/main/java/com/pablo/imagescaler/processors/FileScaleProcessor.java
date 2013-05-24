@@ -55,8 +55,7 @@ public class FileScaleProcessor implements Processor {
 
 
 	private OutputStream scale(InputStream iStreamImage, int maxHeightWidth, OutputStream oStreamImage, String format) throws Exception {
-		InputStream imageStream = new BufferedInputStream(iStreamImage);
-		BufferedImage imageBuffer = ImageIO.read(imageStream);
+		BufferedImage imageBuffer = ImageIO.read(iStreamImage);
 		int width = imageBuffer.getWidth();
 		int height = imageBuffer.getHeight();
 		double ratio = width / (double)height;
